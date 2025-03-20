@@ -14,39 +14,69 @@ nlu:
     - Good day
     - Howdy
     - Hey there!
-
-
+ 
+ 
 - intent: faq_air_what_is_program
   examples: |
     - What is the AIR program?
     - Can you explain the AIR program?
-
+ 
 - intent: faq_air_how_help_students
   examples: |
     - How does the AIR program help students?
     - What benefits does the AIR program provide?
-
+ 
 - intent: faq_air_how_different
   examples: |
     - How is the AIR program different from other industry-ready programs?
-
+    - How AIR is different from other online programs?
+ 
 - intent: faq_air_eligibility
   examples: |
     - Who is eligible for the AIR program?
     - What are the eligibility criteria for AIR?
-
+    - Can I apply for the AIR program?
+    - What qualifications do I need for the AIR program?
+    - Is there any age limit for AIR eligibility?
+    - Do I need prior experience to join AIR?
+    - Are there any specific academic requirements for AIR?
+    - Does AIR require any entrance exam?
+    - Can international students apply for AIR?
+    - Is AIR open to professionals or just students?
+    - What is the minimum qualification for AIR?
+    - Do I need a technical background for AIR?
+    - Are there any prerequisites for AIR?
+    - Can a fresher apply for the AIR program?
+    - Is there any work experience required for AIR?
+ 
 - intent: faq_air_application_process
   examples: |
     - How do I apply for the program?
     - How do I enroll in the AIR program?
-
+ 
 - intent: faq_air_fees
   examples: |
     - What is the total program cost?
     - What is the fee structure for AIR?
     - so i am intersted in AIR Program So what is the fee for this program?
-    - what is the fees for 1 year in cloudsAI AIR Program?
-
+    - what is the fees for 3 year in cloudsAI AIR Program?
+    - what is the fees for 4 year in cloudsAI AIR Program?
+    - What is the total program cost?
+    - What is the fee structure for AIR?
+    - How much does the AIR program cost?
+    - What is the tuition fee for AIR?
+    - Are there any additional charges apart from the course fee?
+    - Do I need to pay the fee in full or is installment available?
+    - Does the AIR program offer any scholarships?
+    - What is the fee breakdown for AIR?
+    - Are there any discounts for early registration?
+    - Can I get a refund if I cancel my admission?
+    - Is there any financial aid available for AIR?
+    - How do I pay for the AIR program?
+    - Is there any admission fee for AIR?
+    - What are the payment options for the AIR program?
+    - Are there any hidden charges in the AIR program fees?
+ 
 - intent: faq_air_placement_assistance
   examples: |
     - Do you offer job placement assistance?

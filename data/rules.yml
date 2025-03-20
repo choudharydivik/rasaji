@@ -1,0 +1,42 @@
+version: "3.1"
+
+rules:
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Answer what is AIR program
+  steps:
+  - intent: faq_air_what_is_program
+  - action: utter_faq_air_what_is_program
+
+- rule: Answer how AIR helps students
+  steps:
+  - intent: faq_air_how_help_students
+  - action: utter_faq_air_how_help_students
+
+- rule: Answer how AIR is different
+  steps:
+  - intent: faq_air_how_different
+  - action: utter_faq_air_how_different
+
+- rule: Answer AIR eligibility criteria
+  steps:
+  - intent: faq_air_eligibility
+  - action: utter_faq_air_eligibility
+
+- rule: Answer AIR application process
+  steps:
+  - intent: faq_air_application_process
+  - action: utter_faq_air_application_process
+
+- rule: Answer AIR fees
+  steps:
+  - intent: faq_air_fees
+  - action: utter_faq_air_fees
+
+- rule: Answer AIR placement assistance
+  steps:
+  - intent: faq_air_placement_assistance
+  - action: utter_faq_air_placement_assistance

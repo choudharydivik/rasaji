@@ -1,0 +1,52 @@
+{
+  "type": "IntentMaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "back": 0,
+        "faq_air_application_process": 1,
+        "faq_air_eligibility": 2,
+        "faq_air_fees": 3,
+        "faq_air_how_different": 4,
+        "faq_air_how_help_students": 5,
+        "faq_air_placement_assistance": 6,
+        "faq_air_what_is_program": 7,
+        "greet": 8,
+        "nlu_fallback": 9,
+        "out_of_scope": 10,
+        "restart": 11,
+        "session_start": 12
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_faq_air_application_process": 13,
+        "utter_faq_air_eligibility": 14,
+        "utter_faq_air_fees": 15,
+        "utter_faq_air_how_different": 16,
+        "utter_faq_air_how_help_students": 17,
+        "utter_faq_air_placement_assistance": 18,
+        "utter_faq_air_what_is_program": 19,
+        "utter_greet": 20
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

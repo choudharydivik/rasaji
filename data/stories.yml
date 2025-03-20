@@ -1,0 +1,42 @@
+version: "3.1"
+
+stories:
+- story: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: User asks about AIR program
+  steps:
+  - intent: faq_air_what_is_program
+  - action: utter_faq_air_what_is_program
+
+- story: User asks how AIR helps students
+  steps:
+  - intent: faq_air_how_help_students
+  - action: utter_faq_air_how_help_students
+
+- story: User asks how AIR is different
+  steps:
+  - intent: faq_air_how_different
+  - action: utter_faq_air_how_different
+
+- story: User asks about AIR eligibility
+  steps:
+  - intent: faq_air_eligibility
+  - action: utter_faq_air_eligibility
+
+- story: User asks about AIR application process
+  steps:
+  - intent: faq_air_application_process
+  - action: utter_faq_air_application_process
+
+- story: User asks about AIR fees
+  steps:
+  - intent: faq_air_fees
+  - action: utter_faq_air_fees
+
+- story: User asks about AIR placement assistance
+  steps:
+  - intent: faq_air_placement_assistance
+  - action: utter_faq_air_placement_assistance

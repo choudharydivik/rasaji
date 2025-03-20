@@ -1,0 +1,30 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_how_help_students\"}}]": "utter_faq_air_how_help_students",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_how_help_students\"}}, {\"prev_action\": {\"action_name\": \"utter_faq_air_how_help_students\"}, \"user\": {\"intent\": \"faq_air_how_help_students\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_eligibility\"}}]": "utter_faq_air_eligibility",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_eligibility\"}}, {\"prev_action\": {\"action_name\": \"utter_faq_air_eligibility\"}, \"user\": {\"intent\": \"faq_air_eligibility\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_placement_assistance\"}}]": "utter_faq_air_placement_assistance",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_placement_assistance\"}}, {\"prev_action\": {\"action_name\": \"utter_faq_air_placement_assistance\"}, \"user\": {\"intent\": \"faq_air_placement_assistance\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_fees\"}}]": "utter_faq_air_fees",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_fees\"}}, {\"prev_action\": {\"action_name\": \"utter_faq_air_fees\"}, \"user\": {\"intent\": \"faq_air_fees\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_what_is_program\"}}]": "utter_faq_air_what_is_program",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_what_is_program\"}}, {\"prev_action\": {\"action_name\": \"utter_faq_air_what_is_program\"}, \"user\": {\"intent\": \"faq_air_what_is_program\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_application_process\"}}]": "utter_faq_air_application_process",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_application_process\"}}, {\"prev_action\": {\"action_name\": \"utter_faq_air_application_process\"}, \"user\": {\"intent\": \"faq_air_application_process\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}]": "utter_greet",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}, {\"prev_action\": {\"action_name\": \"utter_greet\"}, \"user\": {\"intent\": \"greet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_how_different\"}}]": "utter_faq_air_how_different",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"faq_air_how_different\"}}, {\"prev_action\": {\"action_name\": \"utter_faq_air_how_different\"}, \"user\": {\"intent\": \"faq_air_how_different\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent back",
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart"
+    ]
+  }
+}

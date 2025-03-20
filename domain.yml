@@ -1,0 +1,51 @@
+version: "3.1"
+
+intents:
+  - greet
+  - faq_air_what_is_program
+  - faq_air_how_help_students
+  - faq_air_how_different
+  - faq_air_eligibility
+  - faq_air_application_process
+  - faq_air_fees
+  - faq_air_placement_assistance
+
+
+
+responses:
+  utter_greet:
+    - text: "Hello!, I am CloudsAI Chatbot. Here to assist you. "
+    - text: "Hi there!, I am CloudsAI Chatbot.  Here to assist you."
+    - text: "Hey!, I am CloudsAI Chatbot"
+
+  utter_faq_air_what_is_program:
+    - text: "The AIR program is designed to provide industry-relevant skills and training."
+    - text: "AIR stands for Applied Industry Readiness, offering real-world experience."
+
+  utter_faq_air_how_help_students:
+    - text: "The AIR program helps students by providing hands-on experience and mentorship."
+    - text: "Through the AIR program, students gain practical knowledge to enhance their careers."
+
+  utter_faq_air_how_different:
+    - text: "The AIR program stands out due to its industry-oriented approach and real-world projects."
+    - text: "Unlike other programs, AIR focuses on practical skills and real-time problem-solving."
+
+  utter_faq_air_eligibility:
+    - text: "To be eligible for the AIR program, you must meet the specified educational and experience criteria."
+    - text: "Eligibility for AIR depends on your academic background and work experience."
+
+  utter_faq_air_application_process:
+    - text: "You can apply for the AIR program by visiting our official website and filling out the application form."
+    - text: "Simply go to our website, complete the form, and submit the required documents."
+
+  utter_faq_air_fees:
+    - text: "The total cost of the AIR program depends on the selected course and duration."
+    - text: "For detailed fee structures, please check our website or contact our support team."
+
+  utter_faq_air_placement_assistance:
+    - text: "Yes, the AIR program provides job placement assistance to qualified candidates."
+    - text: "AIR helps students connect with industry partners for job placements."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
